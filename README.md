@@ -15,23 +15,25 @@ cuerpo del json desde el postman (h2 nos proporciona una base de datos temporal)
 
 POST /tarea
 {
-    "titulo": "Nueva Tarea",
-    "descripcion": "Descripción de la tarea",
-    "estado": "PENDIENTE",
-    "fechaVencimiento": "2024-12-31"
+  "titulo": "tarea numero duno",
+  "descripcion": "Aprender cómo crear un microservicio",
+  "estado": "PENDIENTE",
+  "fechaTarea": "2024-09-20"
 }
 
+
 ## Control de errores
-para llevar el control de errores hacemos lo siguiente
+para llevar el control de errores hacemos lo siguiente (borrar el titulo, para ver la excepcion personalizda que arroja)
 
 ENTRADA:
 
 POST /tarea
 {
-    "descripcion": "Descripción de la tarea",
-    "estado": "PENDIENTE",
-    "fechaVencimiento": "2024-12-31"
+  "descripcion": "Aprender cómo crear un microservicio",
+  "estado": "PENDIENTE",
+  "fechaTarea": "2024-09-20"
 }
+
 
 SALIDA:
 
