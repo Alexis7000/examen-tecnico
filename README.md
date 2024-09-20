@@ -1,5 +1,6 @@
 # examen-tecnico
 Desarrollo backend - microservicios
+Este microservicio funciona con base de datos relacional en memoria H2
 
 ## Instalación
 
@@ -11,7 +12,7 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu entorno local.
 
 ## USO
 
-cuerpo del json desde el postman (h2 nos proporciona una base de datos temporal):
+cuerpo del json desde el postman
 
 ENTRADA:
 
