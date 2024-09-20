@@ -8,7 +8,8 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu entorno local.
 
 1. Clonar el repositorio:
    git clone https://github.com/Alexis7000/examen-tecnico.git
-2. ejecutar en el id
+2. ejecutar mvn clean install
+3. ejecutar  mvn spring-boot:run
 
 ## USO
 
